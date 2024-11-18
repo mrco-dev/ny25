@@ -13,12 +13,12 @@ export default function Team({ setShowTeam }: teamProps) {
       >
         <img src="/close.svg" alt="close icon" />
       </span>
+      <h2>Božičkovi jeleni:</h2>
       <div className="team_grid">
         {teamMembers.map((_, index) => (
           <div className="team_member" key={index}>
             <img src="/team-member-placeholder.jpeg" alt="team member" />
             <h5>Ime Priimek</h5>
-            <p>pozicija</p>
           </div>
         ))}
       </div>

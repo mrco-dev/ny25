@@ -20,9 +20,13 @@
       max-width: 24px;
     }
   }
+  h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+  }
   &_grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
   &_member {
@@ -31,7 +35,8 @@
     flex-direction: column;
     align-items: center;
     img {
-      max-width: 80%;
+      width: 80%;
+      max-width: 84px;
       border-radius: 50%;
       margin-bottom: 1rem;
     }
